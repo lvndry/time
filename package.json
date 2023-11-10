@@ -13,6 +13,7 @@
     "typescript": "^5.0.0"
   },
   "bun-create": {
+    "postinstall": "bun run compile",
     "start": "./time"
   }
 }
