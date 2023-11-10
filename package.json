@@ -1,0 +1,14 @@
+{
+  "name": "time",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bun-create": {
+    "start": "bun run echo 'Hello world!'"
+  }
+}
