@@ -1,2 +1,2 @@
 const currentTime = new Date();
-console.log(currentTime.toISOString());
+console.log(currentTime.toLocaleString());

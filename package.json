@@ -2,6 +2,10 @@
   "name": "time",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "compile": "bun build index.ts --outfile time --compile",
+    "run": "bun run index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -9,6 +13,6 @@
     "typescript": "^5.0.0"
   },
   "bun-create": {
-    "start": "bun run echo 'Hello world!'"
+    "start": "./time"
   }
 }
